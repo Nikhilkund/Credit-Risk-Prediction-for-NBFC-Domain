@@ -19,7 +19,8 @@ This repository contains a machine learning model for predicting credit risk. Th
   - Gini Coefficient
   - KS Statistic (Kolmogorov-Smirnov)
   
-Results
+## Results
+
 The best Logistic Regression model achieved the following performance metrics (results may vary depending on your dataset):
 
 AUC: ~0.98
@@ -27,7 +28,8 @@ Gini Coefficient: ~0.96
 KS Statistic: ~80-85%, indicating good separation between good and bad customers.
 
 
-Further Improvements
+## Further Improvements 
+
 Explore other models such as Gradient Boosting or Support Vector Machines.
 Apply advanced feature engineering.
 Enhance hyperparameter tuning with more trials in Optuna.
@@ -35,7 +37,7 @@ Consider ensemble methods for improved performance.
 Focus on model explainability using techniques like SHAP or LIME.
 
 
-Requirements
+## Requirements
 optuna
 scikit-learn
 xgboost
